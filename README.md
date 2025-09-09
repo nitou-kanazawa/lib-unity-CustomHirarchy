@@ -1,4 +1,4 @@
-# <パッケージ名>
+# CustomHirarchy
 
 [![license](https://img.shields.io/badge/LICENSE-MIT-green.svg)](LICENSE)
 
@@ -19,14 +19,14 @@
 2. 「+」ボタン > Add package from git URL
 3. 以下のURLを入力する
 ```
-https://github.com/nitou-kanazawa/<リポジトリ名>.git?path=<パッケージパス>
+https://github.com/nitou-kanazawa/lib-unity-CustomHirarchy.git
 ```
 
 あるいはPackages/manifest.jsonを開き、dependenciesブロックに以下を追記
 ```
 {
     "dependencies": {
-        "jp.nitou.<パッケージ名>": "https://github.com/nitou-kanazawa/<リポジトリ名>.git?path=<パッケージパス>"
+        "jp.nitou.customhierarchy": "https://github.com/nitou-kanazawa/lib-unity-CustomHirarchy.git"
     }
 }
 ```
